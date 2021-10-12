@@ -1,0 +1,13 @@
+package testData;
+
+public class sampleClass {
+
+	public static void main(String[] args) {
+
+		
+		Dice newDice = new Dice();
+		System.out.println(newDice.roll());
+		
+	}
+
+}

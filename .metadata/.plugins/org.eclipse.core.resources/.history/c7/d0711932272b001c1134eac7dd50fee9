@@ -1,0 +1,17 @@
+package testData;
+
+public class Dice {
+	
+	int number = 0;
+	
+	public void roll() {
+		
+		number = ((int)(Math.random()*6))+1;	
+	}
+	
+	private void rollagain() {
+		number = ((int)(Math.random()*10))+1;	
+	}
+	
+	
+}

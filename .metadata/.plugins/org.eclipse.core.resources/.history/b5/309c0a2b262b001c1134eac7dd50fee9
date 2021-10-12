@@ -1,0 +1,9 @@
+/*package testData;*/
+
+public class Dice {
+	
+	int number = 0;
+	
+	number = ((int)(Math.random()*6))+1;
+	
+}
